@@ -1,0 +1,212 @@
+* {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0 0 0 0;
+}
+
+.kontainer {
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(rgba(62, 62, 62, 0.75), rgba(194, 194, 194, 0.75))
+    , url(876647-horns-Rhino-Grass.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.daftar-volunteer-button{
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #a0855c;
+    border-style: none;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.daftar-volunteer-button:hover{
+    color: white;
+    font-size: 20px;
+}
+
+.login-button{
+    background-color: none;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: #a0855c;
+    border-style: solid;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px 30px 10px;
+}
+
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    background-color: #a0855c00;
+    border-bottom: 3px solid;
+    border-color: #39480c6b;
+
+}
+
+nav {
+    width: 100%;
+    /* padding: 20px 40px 0 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #F1D6AB; */
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-kiri{
+    padding: 20px 40px 0 10px;
+}
+
+.logo {
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    display: flex;
+    /* background-color: #F1D6AB; */
+}
+
+.desc-logo {
+    padding: 17px 0 0 10px;
+    /* background-color: #F1D6AB; */
+    font-size: 12px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: rgb(49, 47, 47);
+    font-weight: bold;
+}
+
+footer {
+    padding: 5px 0 5px 22px;
+    color: white;
+    font-size: 15px;
+    background-color: #39480c;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    /* overflow: auto; */
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(52, 52, 52, 0.208);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    /* 15% from the top and centered */
+    padding: 30px;
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+
+.login-h1{
+    font-size: 40px;
+}
+
+.login-p{
+    margin-top: 20px;
+}
+
+.konten-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-h1{
+    color: #39480c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputan-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    width: 250px;
+    height: 40px;
+}
+.inputan-login{
+font-size: 20px;
+margin-top: 30px;
+background-color: #bf9f6f71;
+border-style: none;
+padding: 10px 10px 10px 30px;
+border-radius: 7px;
+}
+
+.loging-button{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #39480cc2;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 30px ;
+    border-style: none;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,164 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 0 0;
+}
+
+.daftar-volunteer-button{
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #a0855c;
+    border-style: none;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.daftar-volunteer-button:hover{
+    color: white;
+    font-size: 20px;
+}
+
+.kontainer{
+    width: 100%;
+    background-image: linear-gradient(rgba(225, 225, 225, 0.1), rgba(255, 255, 255, 0.1))
+    , url(/postest/img/watercolor-paper-texture.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.navbar{
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    background-color: #a0855c00;
+    border-bottom: 3px solid;
+    border-color: #39480c6b;
+}
+
+.nav-kiri{
+    padding: 20px 40px 0 10px;
+}
+
+.login-button{
+    background-color: none;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: #a0855c;
+    border-style: solid;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px 30px 10px;
+}
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #F1D6AB; */
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    display: flex;
+    /* background-color: #F1D6AB; */
+
+}
+
+.desc-logo{
+    padding: 17px 0 0 10px;
+    /* background-color: #F1D6AB; */
+    font-size: 12px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(49, 47, 47);
+    font-weight: bold;
+}
+
+.konten{
+    display: block;
+    background-image: linear-gradient(rgba(62, 62, 62, 0.75), rgba(194, 194, 194, 0.75))
+    , url(/postest/img/20201302odishatv-dot-in.jpg);
+    height: 25%;
+    text-align: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-position: center;
+    background-size: cover;
+}
+
+.konten h1{
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom:20px;
+    padding-top: 0;
+    color: white;
+    font-family: Tahoma;
+}
+
+.konten p{
+    font-size: 22px;
+    color: white;
+    font-family: tahoma;
+}
+
+.deskripsi-tentang{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.desc-tentang{
+    display: flex;
+    width: 50%;
+}
+
+.tentang{
+    font-size: 20px;
+    padding: 40px 20px 40px 20px;
+    text-align: left ;
+    line-height: 40px;
+    }
+
+.img-tentang{
+width: 50%;
+}
+
+.about-img{
+    padding: 40px 5px 10px 10px;
+    width: 90%;
+    border-radius: 50px;
+}
+
+footer{
+    padding: 15px 15px 15px 22px;
+    color: white;
+    font-size: 15px;
+    background-color: #39480c;
+}
+

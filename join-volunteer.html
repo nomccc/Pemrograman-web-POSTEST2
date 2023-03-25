@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Volunteer</title>
+    <link rel="stylesheet" href="/postest/css/style-volunteer.css">
+    <link rel="stylesheet" href="/postest/css/modal-login.css">
+</head>
+
+<body>
+    <div class="kontainer">
+        <div class="navbar">
+            <img class="logo" src="/postest/img/Untitled48_20230306235423.png" alt="logo">
+            <a href="index.html" class="desc-logo">Lets Become Hero For This World</a>
+            <nav>
+                <!-- <a href='About.html' class="nav-kiri">About</a>
+                <a href="Difference.html" class="nav-kiri">How to Make Difference</a>
+                <a href="registrasi.html" class="daftar-volunteer-button">Daftar Akun</a>
+                <a href="Login.html" class="login-button" >Login</a>
+                <button class="login-button" id="login">Login</button> -->
+
+            </nav>
+        </div>
+
+        <div class="konten">
+            <p id="welcome" class="welcome">Selamat Datang di Animal Rescuer! Silakan Isi Data Diri di Bawah Ini:</p>
+            <div class="inputan">
+                <form id="form-daftar" class="form-daftar" action="">
+                    <br>
+                    <input class="text" type="text" id="nama_user" placeholder="Nama Lengkap"><br>
+                    <input class="text" type="email" id="email_user" placeholder="Email"><br>
+                    Jenis Kelamin: <input class="radio" type="radio" name="gender" value="perempuan">Perempuan
+                    <input class="radio" type="radio" name="gender" value="laki-laki">Laki-Laki<br>
+                    <span>Ingin fokus di bagian:</span> <input type="checkbox" name="wildlife" value="wildlife">Wildlife
+                    <input class="checkbox" type="checkbox" name="farm-animal" value="farm-animal">Farm Animal
+                    <input class="checkbox" type="checkbox" name="pets" value="pets">Pets<br>
+                    Umur: <select id="umur">
+                        <option value="anak">12 - 16 tahun</option>
+                        <option value="remaja">17 - 25 tahun</option>
+                        <option value="dewasa">26 - 35 tahun</option>
+                        <option value="orang-tua">36 > tahun</option>
+                    </select><br>
+                    Your photo: <input type="file" name="" id=""><br>
+                    <button type="submit" class="submit-button" id="daftar">DAFTAR</button>
+                    <!-- <input class = "submit" type="submit">  -->
+                </form>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="konten-login"></div>
+                <h1 class="login-h1">LOG IN</h1>
+                <form id="form-login" action="">
+                    <input class="inputan-login" type="email" placeholder="email">
+                    <input class="inputan-login" type="password" placeholder="password">
+                    <button type="submit" class="loging-button">Login</button>
+                </form>
+            </div>
+        </div>
+
+
+        <footer>
+            <p>&#169; 2023 Animal Rescuer</p>
+            <p>Avivah</p>
+        </footer>
+
+</body>
+<script src="/postest/js/data-diri.js" ></script>
+<script src="/postest/js/homepage.js"></script>
+<script src="/postest/js/daftar-volunteer.js" ></script>
+</html>
